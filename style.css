@@ -1,0 +1,123 @@
+body, button {
+    font-family: 'Barlow', sans-serif;
+    background-color:  #1a1a1a;
+    margin: 0;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    padding-top: 250px;
+}
+
+input[type=text] {
+    display: block;
+    position: relative;
+    margin: 30px auto;
+    width: 30%;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+}
+
+input[type=text]:hover {
+    box-shadow: 0 0 5px black;
+}
+
+input[type=image] {
+    display: block;
+    position: relative;
+    left: 62%;
+    top: -35px;
+    width: 16px;
+    outline: none;
+}
+
+button {
+    background-color: #333333;
+    border-radius: 2px;
+    border: none;
+    color: #808080;
+    padding: 10px 25px;
+    font-size: medium;
+    outline: none;
+}
+
+button:hover {
+    box-shadow: 0 0 5px black;
+}
+
+#leftbutton {
+    position: absolute;
+    right: 50.2%;
+    margin-right: 5px;
+}
+
+#rightbutton {
+    position: absolute;
+    left: 50.2%
+}
+
+ul, li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#navbarleft {
+    margin: 20px;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-top: 10px;
+}
+
+#navbarright {
+    margin: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#footerleft {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: black;
+    padding: 10px;
+    padding-right: 50%;
+    margin: 0px;
+}
+
+#footerright {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: black;
+    padding: 10px;
+    padding-left: 50%;
+    margin: 0px;
+}
+
+a {
+    color: #808080;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#menuimg {
+    width: 20px;
+}
+
+#signinbutton {
+    background-color: #4c8bf5;
+    color: black;
+}
